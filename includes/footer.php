@@ -1,0 +1,37 @@
+<footer class="footer-dark">
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img src="assets/img/logo-sgtolima.jpg" alt="Logo Instituto SGTO Lima" class="brand-logo" />
+              <div class="fw-semibold text-white">Instituto Educacional Sargento Lima</div>
+            </div>
+            <p class="text-white-50 small mb-0">Projeto Educacional apoiando alunos da Policia Militar Mirim de Presidente Médici em Rondônia, com conhecimento prático e teórico</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="fw-semibold text-white mb-2">Áreas de Ensino</div>
+            <ul class="list-unstyled small m-0 text-white-50">
+              <li>Microsoft Word e Excel</li>
+              <li>Navegação na Internet</li>
+              <li>Hardware e Manutenção</li>
+              <li>Redes de Computadores</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="fw-semibold text-white mb-2">Contato</div>
+            <p class="small m-0"><a class="text-white-50 text-decoration-none" href="mailto:instrutor.pmm2025@gmail.com"><i class="fa-solid fa-at me-1"></i>instrutor.pmm2025@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom py-3">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2">
+          <p class="mb-0 small text-white-50">© <?php echo date("Y"); ?> Instituto Educacional Sargento Lima. Todos os direitos reservados.</p>
+          <a href="#inicio" class="small text-white-50 text-decoration-none">Voltar ao topo</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
