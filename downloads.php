@@ -7,17 +7,17 @@ $page_title = "Instituto Educacional Sargento Lima | Downloads";
 // =========================================================
 $downloads_gerais = [
     [
-        'nome' => 'Atividade Prática',
+        'nome' => 'Instruções da Aula Prática',
         'icone' => 'fa-keyboard',
-        'descricao' => 'Abra o arquivo .docx para a atividade prática da aula de hoje e cole em um novo documento do Word.',
-        'link' => 'https://docs.google.com/document/d/1A1dDedfebtZz4R25TTZV3jIg1LXlDedP/edit?usp=drive_link&ouid=106897552400846778912&rtpof=true&sd=true',
-        'data' => '09/10/2025' // Você pode usar PHP date() aqui também
+        'descricao' => 'Abra o arquivo de instruções .docx para a atividade prática da aula de hoje.',
+        'link' => 'https://docs.google.com/document/d/1HOa2Kye2uPOIaFlsKOaJB4InDHvoYttN/edit?usp=drive_link&ouid=114755153120757141635&rtpof=true&sd=true',
+        'data' => '13/10/2025' // Você pode usar PHP date() aqui também
     ],
     [
-        'nome' => 'Google Drive',
+        'nome' => 'Atividade Prática',
         'icone' => 'fa-file-lines',
-        'descricao' => 'Abra a pasta que contém todas as atividades e BAIXE no seu computador os arquivos solicitados pelo instrutor.',
-        'link' => 'https://drive.google.com/drive/folders/1rwgQb4P2rcLxx_RNBa9aOsicB6_mpONy?usp=sharing',
+        'descricao' => 'Abra o arquivo .docx para a atividade prática da aula de hoje e cole em um novo documento do Word e siga as instruções.',
+        'link' => 'https://docs.google.com/document/d/16j4SmoGWCMqqtKvObiu_L85x1SMJGVSd/edit?usp=sharing&ouid=114755153120757141635&rtpof=true&sd=true',
         'data' => '' // Sem data específica
     ],
     // Adicione mais downloads aqui
@@ -50,11 +50,11 @@ include 'includes/header.php';
                   <p class="text-secondary small mb-3">
                       <?php echo $item['descricao']; ?>
                       <?php if (!empty($item['data'])) { ?>
-                          <br>Atividade da aula de hoje **<?php echo $item['data']; ?>**
+                          <br>Atividade da aula de hoje <?php echo $item['data']; ?>
                       <?php } ?>
                   </p>
                   <a class="btn btn-outline-download w-100" target="_blank" href="<?php echo $item['link']; ?>">
-                    <i class="fa-solid fa-arrow-down-long me-2"></i>Acessar / Baixar
+                    <i class="fa-solid fa-arrow-down-long me-2"></i>Acessar
                   </a>
                 </div>
               </div>
