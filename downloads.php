@@ -10,14 +10,14 @@ $downloads_gerais = [
         'nome' => 'Instruções da Aula Prática',
         'icone' => 'fa-keyboard',
         'descricao' => 'Abra o arquivo de instruções .docx para a atividade prática da aula de hoje.',
-        'link' => 'https://docs.google.com/document/d/1HOa2Kye2uPOIaFlsKOaJB4InDHvoYttN/edit?usp=drive_link&ouid=114755153120757141635&rtpof=true&sd=true',
+        'link' => 'https://drive.google.com/drive/folders/1nnIHGnCoCmHXRsF_rq0uhb6D3Ikqo1We?usp=drive_link',
         'data' => '13/10/2025' // Você pode usar PHP date() aqui também
     ],
     [
         'nome' => 'Atividade Prática',
         'icone' => 'fa-file-lines',
-        'descricao' => 'Abra o arquivo .docx para a atividade prática da aula de hoje e cole em um novo documento do Word e siga as instruções.',
-        'link' => 'https://docs.google.com/document/d/16j4SmoGWCMqqtKvObiu_L85x1SMJGVSd/edit?usp=sharing&ouid=114755153120757141635&rtpof=true&sd=true',
+        'descricao' => 'Abra o arquivo .xls para a atividade prática da aula de hoje e cole em um novo documento do Excle e siga as instruções.',
+        'link' => 'https://drive.google.com/drive/folders/1nnIHGnCoCmHXRsF_rq0uhb6D3Ikqo1We?usp=drive_link',
         'data' => '' // Sem data específica
     ],
     // Adicione mais downloads aqui
